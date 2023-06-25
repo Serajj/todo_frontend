@@ -1,0 +1,58 @@
+.add-todo-modal{
+  width: 400px;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #003950;
+}
+.add-todo-modal form{
+   display: flex;
+   flex-direction: column;
+ }
+.add-todo-modal input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+ }
+ .add-todo-modal textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+ }
+
+ .add-todo-modal label{
+    padding: 10px 0px;
+ }
+
+ .add-todo-modal .form-secondry-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+ }
+ .add-todo-modal .form-secondry-container .priority-container{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .add-todo-modal .form-secondry-container .due-date-container{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .add-todo-modal .atdbtnctnr{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-evenly;
+ }
+
+ .task-priority{
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 100%;
+ }

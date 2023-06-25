@@ -1,0 +1,43 @@
+
+.login-container{
+
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	margin: 10% auto;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.256);
+    padding: 20px;
+}
+
+
+.form-signin .form-floating{
+    display: flex;
+    flex-direction: column;
+}
+.form-signin .form-floating label{
+    padding: 10px 0px;
+ }
+
+.form-signin .form-floating input{
+   padding: 10px;
+   border-radius: 10px;
+   border: none;
+}
+.form-signin .form-floating span{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: red;
+ }
+.form-signin .remeber{
+    margin-top: 10px;
+}
+
+.form-signin .signin-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
